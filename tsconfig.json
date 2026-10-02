@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"],
+      "~/*": ["app/*"]
+    }
+  },
+  "include": [
+    "server.ts",
+    "app/**/*.ts",
+    "config/**/*.ts",
+    "database/**/*.ts",
+    "routes/**/*.ts",
+    "resources/js/**/*.ts",
+    "resources/js/**/*.vue",
+    "vite.config.ts"
+  ]
+}
